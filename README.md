@@ -1,4 +1,6 @@
 # orientation_controller
+Install the serial port driver on mac.
+- [USB to UART](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 
 Depending on the board you're using, you'll need one of these    
 - [ESP8266 Arduino Serial Driver](https://github.com/esp8266/Arduino)    
