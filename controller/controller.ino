@@ -1,5 +1,6 @@
 #include <Wire.h>
-#include <ESP8266WiFi.h>
+/* #include <ESP8266WiFi.h> for ESP8266 board */
+/* #include <WiFi.h> for the ESP32 board */
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BNO055.h>
 #include <utility/imumaths.h>
