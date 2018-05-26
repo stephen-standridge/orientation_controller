@@ -1,5 +1,5 @@
 #include <Wire.h>
-/* #include <ESP8266WiFi.h> for ESP8266 board */
+#include <ESP8266WiFi.h>
 /* #include <WiFi.h> for the ESP32 board */
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BNO055.h>
@@ -37,6 +37,8 @@
 #define BNO055_SAMPLERATE_DELAY_MS (100)
 
 Adafruit_BNO055 bno = Adafruit_BNO055(55);
+
+#define SERIAL_SPEED 115200
 
 /************************* WiFi Access Point *********************************/
 
@@ -156,7 +158,7 @@ void displayCalStatus(void)
 }
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(SERIAL_SPEED);
   delay(10);
 
   // Connect to WiFi access point.
