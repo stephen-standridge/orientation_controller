@@ -42,14 +42,6 @@ Adafruit_BNO055 bno = Adafruit_BNO055(55);
 
 /************************* WiFi Access Point *********************************/
 
-#define KANEOHE_WLAN_SSID       "kaneohe"
-#define KANEOHE_WLAN_PASS       "oahu1964"
-
-#define PI_WLAN_SSID       "Pi_SS_AP"
-#define PI_WLAN_PASS       "brc!2017"
-
-#define GRAY_AREA_WLAN_SSID       "Gray Area Incubator"
-#define GRAY_AREA_WLAN_PASS       "grandstand"
 
 WiFiUDP Udp;                                // A UDP instance to let us send and receive packets over UDP
 //const IPAddress outIp(192, 168, 1, 237); 
